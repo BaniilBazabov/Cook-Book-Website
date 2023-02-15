@@ -1,0 +1,36 @@
+.categories-container {
+   max-width: 1200px;
+   margin: auto;
+}
+
+.categories-container .category-container {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 50px 0;
+}
+
+.category-container .category {
+   display: flex;
+   height: 60px;
+   width: 150px;
+   font-size: 2rem;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   border-radius: 5px;
+   color: #fefae0;
+   overflow: hidden;
+   background-size: cover;
+   background-repeat: no-repeat;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.thai_cat {
+   background: -webkit-linear-gradient(to right, #9a8478cb, #1e130cc4),
+      url("./images/cat_Thai.jpg"); /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #9a8478cb, #1e130cc4),
+      url("./images/cat_Thai.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   color: white;
+}

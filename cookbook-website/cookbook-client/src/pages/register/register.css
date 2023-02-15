@@ -1,0 +1,12 @@
+.register-error {
+   padding-top: 20px;
+   text-align: center;
+   color: rgb(214, 33, 33);
+   font-style: italic;
+}
+.register-success {
+   padding-top: 20px;
+   text-align: center;
+   color: rgb(36, 184, 36);
+   font-style: italic;
+}

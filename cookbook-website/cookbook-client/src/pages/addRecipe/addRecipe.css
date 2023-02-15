@@ -1,0 +1,71 @@
+.add-recipe {
+   font-family: "Courier New", Courier, monospace;
+}
+
+.addForm {
+   background-color: #b9b9b91c;
+   max-width: 1200px;
+   margin: auto;
+   padding: 50px 0;
+}
+
+.addFormGroup {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+}
+
+.addInput {
+   width: 80%;
+   padding-top: 15px;
+   margin-bottom: 10px;
+}
+
+.updatemMode-singleRecipe {
+   display: flex;
+   flex-direction: column;
+   flex: content;
+}
+
+.recipeAddBtn {
+   width: 120px;
+   padding: 5px 8px;
+   margin-left: 0;
+   margin-bottom: 20px;
+   cursor: pointer;
+   color: rgb(85, 85, 85);
+}
+
+.ingredientsList {
+   display: flex;
+   flex-direction: column;
+}
+
+.recipe-steps {
+   display: flex;
+   flex-direction: column;
+}
+
+.addSubmit {
+   background-color: #479325;
+   color: #fff;
+
+   padding: 15px 30px;
+   border-radius: 5px;
+   border: none;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.addSubmit:hover {
+   background-color: #ade792;
+   color: rgb(42, 42, 42);
+   transition: 0.3s ease-in-out;
+}
+
+.add-recipe-img {
+   width: 400px;
+   height: 400px;
+}
